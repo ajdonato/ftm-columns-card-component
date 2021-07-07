@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+    --very-light-gray: hsl(0, 0%, 95%);  /*(background, headings, buttons)*/
+
+    font-size: 62.5%;
+
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.content{
+    background: var(--very-light-gray);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content main{
+    width: 92rem;
+    height: 50rem;
+
+    display: flex;
+
+    margin-top: 5rem
+}
+
+.content main div {
+    padding: 4.5rem;
+}
+
+.content main div h1{
+    font-family: 'Big Shoulders Display', cursive;
+
+    color: var(--very-light-gray);
+
+    font-size: 4rem;
+    text-transform: uppercase;
+
+    padding: 4rem 0 3rem;
+}
+
+.content main div p{
+    color: var(--transparent-white);
+
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+    padding-bottom: 8rem;
+}
+
+.content main div button {
+    padding: 1.5rem 3rem;
+    border-radius: 10rem;
+
+    font-size: 1.5rem;
+
+    font-weight: 700;
+
+    border: none;
+    outline:none; 
+    display:block; 
+    cursor:pointer; 
+}
+
+.content main div button:hover{
+    background: none;
+    color:var(--very-light-gray);
+    border: .2rem solid var(--very-light-gray);
+    padding: 1.3rem 2.8rem;
+}
+
+.content .card1{
+    background: var(--bright-orange);
+    border-radius: 1rem 0 0 1rem;
+}
+
+.content .card1 button{
+    color: var(--bright-orange);
+}
+
+.content .card2{
+    background: var(--dark-cyan);
+}
+
+.content .card2 button{
+    color: var(--dark-cyan);
+}
+
+.content .card3{
+    background: var(--very-dark-cyan);
+    border-radius: 0 1rem 1rem 0;
+}
+
+.content .card3 button{
+    color: var(--very-dark-cyan);
+}
+
+
+.attribution { 
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding-top: 3rem;
+}
+.attribution a { 
+    color: var(--bright-orange);
+    text-decoration: none; 
+
+}
+
+

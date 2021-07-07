@@ -1,0 +1,26 @@
+@media (max-width: 980px) {
+    .content{
+        height: auto;
+    }
+    .content main{
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+
+        margin-top: 0;
+    }
+
+    .content .card1{
+        border-radius: 1rem 1rem 0 0;
+        margin-top: 15rem;
+    }
+
+    .content .card3{
+        border-radius: 0 0 1rem 1rem;
+        margin-bottom: 15rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
