@@ -12,15 +12,17 @@
 
     .content .card1{
         border-radius: 1rem 1rem 0 0;
-        margin-top: 15rem;
+        margin-top: 5rem;
     }
 
     .content .card3{
         border-radius: 0 0 1rem 1rem;
-        margin-bottom: 15rem;
+        margin-bottom: 3rem;
     }
-}
 
-@media (max-width: 480px) {
-
+    .attribution {
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
